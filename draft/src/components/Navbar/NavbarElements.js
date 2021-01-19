@@ -39,6 +39,7 @@ margin-left: 24px;
 //font-weight: bold;
 text-decoration: none;
 margin-top: 24px;
+margin-right: 1020px;
 
 &:hover{
     color: 	rgb(255, 235, 245);
@@ -79,3 +80,33 @@ margin-right: -22px;
 @media screen and (max-width: 768px) {
     display: none;
 }`;
+
+// export const NavMenu = styled.ul`
+// display: flex;
+// align-items: center;
+// life-style: none;
+// text-align: center;
+// margin-right: -22px;
+
+// @media screen and (max-width: 768px) {
+//     display: none;
+// }
+// `;
+
+export const NavItem = styled.li`
+height: 80px`;
+
+export const MobileIcon = styled.div`
+display: none;
+
+@media screen and (max-width: 768px) {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #fff;
+}
+`;

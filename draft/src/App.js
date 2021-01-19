@@ -20,7 +20,7 @@ function App() {
   return( <BrowserRouter> 
   <Route path='/login' component={Login} exact /> 
   <Route path='/' component={Home} exact /> 
-  {/* <Form /> */}
+  <Form />
   </BrowserRouter>  )
 
 }
