@@ -42,7 +42,7 @@ const Nav = ({ toggle }) => {
                  
                     <NavLinks><GiShoppingCart /></NavLinks>
                 
-                    <NavLinks onClick={() => window.location = '/login'}><MdPersonOutline /></NavLinks>
+                    <NavLinks  onClick={() => window.location = '/login'}><MdPersonOutline /></NavLinks>
                     <NavLinks><RiChat1Line /></NavLinks>
                       
                 </NavMenu>
