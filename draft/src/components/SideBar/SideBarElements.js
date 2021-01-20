@@ -43,6 +43,7 @@ text-align: center;
 
 @media screen and (max-width: 480px) {
     grid-template-rows: repeat(6, 60px);
+    // grid-template-columns: 1fr 1fr;
 }
 `;
 
