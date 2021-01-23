@@ -7,7 +7,9 @@
     height: 600px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    
   }
+  
   
   .close-btn {
     position: absolute;
@@ -68,12 +70,12 @@
   }
   @media screen and (max-width: 480px) {
     .form-content-right {
-    width: 60%;
-    height: 60%;
+    width: 50%;
+    height: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-110%, -62%);
   }
 }
   
